@@ -244,6 +244,11 @@ i18next.init({
                     iga_fechas: 'July 2016 – March 2017',
                     doctum_fechas: 'May 2013 – May 2016',
                 },
+                education: {
+                    formacion: 'Education',
+                    ciencia_computacion_fechas: 'January 2012 - December 2015',
+                    ciencia_computacion: 'Bachelor in Computer Science',
+                },
                 projects: {
                     proyectos: 'Projects',
                     sistema_ventas: 'Sales System',
