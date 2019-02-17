@@ -23,6 +23,14 @@ function recalcularFechas() {
     });
 }
 
+function googleAnalyticsEvent(categoria, evento) {
+    if ("ga" in window) {
+        tracker = ga.getAll()[0];
+        if (tracker)
+            tracker.send("event", categoria, evento);
+    }
+}
+
 (function($) {
 
     // Remove no-js class
@@ -36,7 +44,7 @@ function recalcularFechas() {
 
         e.preventDefault();
         var heading = $(this).attr('href');
-        ga('send', 'event', 'session', heading);
+        googleAnalyticsEvent('session', heading);
         var scrollDistance = $(heading).offset().top;
 
         $('html, body').animate({
@@ -108,7 +116,7 @@ function recalcularFechas() {
         i18next.changeLanguage(idioma);
         $('body').localize();
         recalcularFechas();
-        ga('send', 'event', 'idioma', idioma);
+        googleAnalyticsEvent('idioma', idioma);
     });
 
 })(jQuery);
