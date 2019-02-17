@@ -19,28 +19,43 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
-    <header>
+    <header class="sticky">
         <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            <span>Cerrar</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">Sobre mí</a>
+                <a href="#about" data-i18n="header.sobre_mi"></a>
             </li>
             <li>
-                <a href="#experience">Experiencia</a>
+                <a href="#experience" data-i18n="header.experiencia"></a>
             </li>
             <li>
-                <a href="#education">Formación</a>
+                <a href="#education" data-i18n="header.formacion"></a>
             </li>
             <li>
-                <a href="#projects">Proyectos</a>
+                <a href="#projects" data-i18n="header.proyectos"></a>
             </li>
             <li>
-                <a href="#skills">Competencias</a>
+                <a href="#skills" data-i18n="header.competencias"></a>
             </li>
             <li>
-                <a href="#contact">Contacto</a>
+                <a href="#contact" data-i18n="header.contacto"></a>
+            </li>
+            <li>
+                <a class="idioma idioma-seleccionado" data-lang="en" href="#lead">
+                    <img src="images/united_kingdom.png" alt="" style="width: 30px">
+                </a>
+            </li>
+            <li>
+                <a class="idioma" data-lang="es" href="#lead">
+                    <img src="images/spain.png" alt="" style="width: 30px">
+                </a>
+            </li>
+            <li>
+                <a class="idioma" data-lang="pt" href="#lead">
+                    <img src="images/portugal.png" alt="" style="width: 30px">
+                </a>
             </li>
         </ul>
     </header>
@@ -49,8 +64,8 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Romário Huebra</h1>
-            <h2>Desenvolvedor de Softaware</h2>
-            <a href="https://drive.google.com/open?id=11WqLCJaWdEM6esrPpehM62uAlalKjcn7" target="_blank" class="btn-rounded-white">Descargar Currículum</a>
+            <h2 data-i18n="lead.desarrollador_de_software"></h2>
+            <a href="https://drive.google.com/open?id=11WqLCJaWdEM6esrPpehM62uAlalKjcn7" target="_blank" class="btn-rounded-white" data-i18n="lead.descargar_curriculum"></a>
         </div>
         <!-- End #lead-content -->
 
@@ -69,12 +84,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">Sobre mí</h2>
+                    <h2 class="heading" data-i18n="about.sobre_mi"></h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
-                        Con 5 años de experiencia en empresas de Argentina y Brasil, he trabajado empresas de distintos sectores y con varias tecnologías, las cuales tengo gran experiencia con PHP, MySQL, javaScript, jQuery, Frameworks MVC(Laravel, Zend Framework, CodeIgniter), Bootstrap, integración de sistemas de pago(PayPal, Stripe), integración de sistemas Moodle y WordPress. Me encanta lo que hago y lo que todavía puedo hacer!
-                    </p>
+                    <p data-i18n="about.sobre_mi_texto"></p>
                 </div>
             </div>
         </div>
@@ -82,48 +95,42 @@
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experiencia</h2>
+        <h2 class="heading" data-i18n="experience.experiencia"></h2>
         <div id="experience-timeline">
-            <div data-date="Marzo 2017 – Hoy">
+            <div data-i18n="[data-date]experience.donweb_fechas">
                 <h3>Donweb</h3>
-                <h4>Programador Web</h4>
-                <p>
-                    En Donweb, trabajo en el equipo responsable por procesar pagos, crear y activar cuentas y servicios de clientes, generación de reportes y sistema interno. Los principales proyectos en los cuales estuve participando fueron para una nueva página de pagos donde desarrollé backend para recibir pagos con Tarjeta de crédito, Stripe, PayPal, Visa Perú y WebPay Chile. Estuve participando también en el desarrollo de soporte para certificados SSL de Let's Encrypt en las cuentas de hosting y un servidor de consulta de WhoIs en NodeJS.
-                </p>
+                <h4 data-i18n="experience.programador_web"></h4>
+                <p data-i18n="experience.donweb_texto"></p>
             </div>
 
-            <div data-date="Julio 2016 – Marzo 2017">
+            <div data-i18n="[data-date]experience.iga_fechas">
                 <h3>IGA – Instituto Gastronómico de Latinoamérica</h3>
-                <h4>Programador Web</h4>
-                <p>
-                    En IGA, hice desarrollo de aplicaciones web en entorno LAMP con Framework CodeIgniter, hice muchos trabajos usando las APIs de Google Analytics, Facebook, trabajé también haciendo integración con el sistema de email marketing EnvialoSimple e integración con una aplicación Moodle. Trabajé controlando en ciclo de desarrollo de las aplicaciones de IGA y apoyando a equipos remotos.
-                </p>
+                <h4 data-i18n="experience.programador_web"></h4>
+                <p data-i18n="experience.iga_texto"></p>
             </div>
 
-            <div data-date="Mayo 2013 – Mayo 2016">
+            <div data-i18n="[data-date]experience.doctum_fechas">
                 <h3>Rede de Ensino Doctum</h3>
-                <h4>Programador Web</h4>
-                <p>
-                    Flux Softwares proporciona servicios a la misma facultad donde estudié. En Flux trabajé con desarrollo de sistemas web en entorno LAMP con PHP puro, después con Zend Framework 2, desarrollé algunas aplicaciones móviles multiplataforma con PhoneGap. Trabajé también con desarrollo e integración de un sistema de gerenciamiento de contenido académico en WordPress.
-                </p>
+                <h4 data-i18n="experience.programador_web"></h4>
+                <p data-i18n="experience.doctum_texto"></p>
             </div>
         </div>
     </div>
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Formación</h2>
+        <h2 class="heading" data-i18n="education.formacion"></h2>
         <div class="education-block">
             <h3>Faculdades Integradas de Caratinga - FIC</h3>
-            <span class="education-date">Enero 2012 - Diciembre 2015</span>
-            <h4>Licenciatura en Ciencias de la Computación</h4>
+            <span class="education-date" data-i18n="education.ciencia_computacion_fechas"></span>
+            <h4 data-i18n="education.ciencia_computacion"></h4>
         </div>
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Proyectos</h2>
+        <h2 class="heading" data-i18n="projects.proyectos"></h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -132,10 +139,8 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Sistema de Ventas</h3>
-                        <p>
-                            Sistema de Ventas hecho para cliente de Rosario a medida con manejo de clientes, estoque, ventas y generación de reportes.
-                        </p>
+                        <h3 data-i18n="projects.sistema_ventas"></h3>
+                        <p data-i18n="projects.texto_sistema_ventas"></p>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -148,9 +153,7 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>HilOsH</h3>
-                        <p>
-                            Una aplicación creada con el equipo HilOsH en el NASA Space Apps de 2017, es una aplicación para prognostico de inundaciones con alertas por email. La aplicación fue desarrollada con Laravel, API Dark Sky y base de datos MySQL.
-                        </p>
+                        <p data-i18n="projects.texto_hilosh"></p>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -163,9 +166,7 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>App O que você prefere?</h3>
-                        <p>
-                            Una aplicación para Android que alcanzó 150.000 descargas! Una aplicación desarrollada con PhoneGap, ademas todo el contenido era gestionado através de un servidor PHP con MySQL.
-                        </p>
+                        <p data-i18n="projects.texto_o_que_vc_prefere"></p>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -176,7 +177,7 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading" data-i18n="skills.competencias"></h2>
         <ul>
             <li>PHP</li>
             <li>JavaScript</li>
@@ -200,13 +201,13 @@
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Contacto</h2>
+        <h2 data-i18n="contact.contacto"></h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/romarioj2h@gmail.com">
-                <input type="hidden" name="_subject" value="Contato pelo home do site" />
-                <input type="email" name="_replyto" placeholder="Email" required>
-                <textarea name="message" placeholder="Su mensaje!" required></textarea>
-                <button type="submit">Enviar</button>
+                <input type="hidden" name="_subject" />
+                <input data-i18n="[placeholder]contact.email" type="email" name="_replyto" required>
+                <textarea data-i18n="[placeholder]contact.su_mensaje"  name="message" required></textarea>
+                <button type="submit" data-i18n="contact.enviar"></button>
             </form>
         </div>
         <!-- End #contact-form -->
@@ -251,6 +252,8 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+    <script src="js/jquery-i18next.min.js"></script>
     <script src="js/scripts.min.js"></script>
 </body>
 
