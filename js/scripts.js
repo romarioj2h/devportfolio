@@ -36,7 +36,7 @@ function recalcularFechas() {
 
         e.preventDefault();
         var heading = $(this).attr('href');
-        ga('send', 'session', heading);
+        ga('send', 'event', 'session', heading);
         var scrollDistance = $(heading).offset().top;
 
         $('html, body').animate({
@@ -108,7 +108,7 @@ function recalcularFechas() {
         i18next.changeLanguage(idioma);
         $('body').localize();
         recalcularFechas();
-        ga('send', 'idioma', idioma);
+        ga('send', 'event', 'idioma', idioma);
     });
 
 })(jQuery);
