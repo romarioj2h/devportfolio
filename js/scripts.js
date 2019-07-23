@@ -12,7 +12,7 @@
 
 function recalcularFechas() {
     $('.vtimeline-date').remove();
-    $('#experience-timeline').each(function() {        
+    $('#experience-timeline').each(function() {
         // Add dates to the timeline if exists
         $this.find('.vtimeline-content').each(function() {
             var date = $(this).data('date');
@@ -61,7 +61,7 @@ function googleAnalyticsEvent(categoria, evento) {
     $('#to-top').click(function() {
         $('html, body').animate({
             scrollTop: 0
-        }, 500);
+        }, 300);
     });
 
     // Scroll to first element
@@ -69,7 +69,7 @@ function googleAnalyticsEvent(categoria, evento) {
         var scrollDistance = $('#lead').next().offset().top;
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, 500);
+        }, 300);
     });
 
     // Create timeline
@@ -145,12 +145,14 @@ i18next.init({
                 experience: {
                     experiencia: 'Experiencia',
                     programador_web: 'Programador Web',
-                    donweb_fechas: 'Marzo 2017 – Hoy',
+                    donweb_fechas: 'Marzo 2017 – Junio 2019',
                     donweb_texto: 'En Donweb, trabajo en el equipo responsable por procesar pagos, crear y activar cuentas y servicios de clientes, generación de reportes y sistema interno. Los principales proyectos en los cuales estuve participando fueron para una nueva página de pagos donde desarrollé backend para recibir pagos con Tarjeta de crédito, Stripe, PayPal, Visa Perú y WebPay Chile. Estuve participando también en el desarrollo de soporte para certificados SSL de Let\'s Encrypt en las cuentas de hosting y un servidor de consulta de WhoIs en NodeJS.',
                     iga_texto: 'En IGA, hice desarrollo de aplicaciones web en entorno LAMP con Framework CodeIgniter, hice muchos trabajos usando las APIs de Google Analytics, Facebook, EnvialoSimple y Moodle. Trabajé controlando en ciclo de desarrollo de las aplicaciones de IGA y apoyando a equipos remotos.',
                     doctum_texto: 'Flux Softwares proporciona servicios a la misma facultad donde estudié. En Flux trabajé con desarrollo de sistemas web en entorno LAMP con PHP puro, después con Zend Framework 2, desarrollé algunas aplicaciones móviles multiplataforma con PhoneGap. Trabajé también con desarrollo e integración de un sistema de gerenciamiento de contenido académico en WordPress.',
                     iga_fechas: 'Julio 2016 – Marzo 2017',
                     doctum_fechas: 'Mayo 2013 – Mayo 2016',
+                    avature_fechas: 'Junio 2019 – Hoy',
+                    avature_texto: 'En Avature, trabajo como programador fullstack en el equipo de Fields. Trabajando con PHP, base de datos SQL y Javascript. Trabajamos diariamente con metodologias ágiles y un equipo distribuído por Argentina y España.',
                 },
                 education: {
                     formacion: 'Formación',
@@ -196,12 +198,14 @@ i18next.init({
                 experience: {
                     experiencia: 'Experiência',
                     programador_web: 'Programador Web',
-                    donweb_fechas: 'Março 2017 – Hoje',
+                    donweb_fechas: 'Março 2017 – Junho 2019',
                     donweb_texto: 'Em Donweb, trabalho no projeto responsável por processar pagamentos, criar e ativa contas e serviços para os clientes, geração de relatórios e sistema interno. Os principais projetos que eu participei foram a criação de uma nova página de pagamentos na qual desenvolvi o backend para receber pagamentos con cartão de crédito, Stripe, PayPal, Visa Perú e WebPay Chile. Também participei no soporte para certificados SSL de Let\'s Encrypt nas contas de hosting e um servidor de consulta de WhoIs em NodeJS.',
                     iga_texto: 'Em IGA, participei de um projeto web em ambiente LAMP com Framework CodeIgniter, além disso, fiz muito projetos usando as APIs do Google Analytics, Facebook, EnvialoSimple e Moodle, controlei o fluxo de desenvolvimento das aplicações em IGA e apoiei a equipes de trabalho remoto.',
                     doctum_texto: 'Flux Softwares oferece serviços a mesma faculdade onde eu estudei. Na Flux trabalhei em vários sistemas com ambiente LAMP e Zend Framework 2, desenvolvi alguma aplicações multiplataforma com PhoneGap. Trabalhei também na desolvolvimento e integração de um sistema de gerenciamiento de conteúdo acadêmico em WordPress.',
                     iga_fechas: 'Julho 2016 – Março 2017',
                     doctum_fechas: 'Maio 2013 – Maio 2016',
+                    avature_fechas: 'Junho 2019 – Hoje  ',
+                    avature_texto: 'Em Avature, trabalho como programador fullstack na equipe Fields. Trabalhamos com PHP, banco de dados SQL e Javascript. Trabalhamos diariamente com metodologias ágeis e uma equipe distribuída por Argentina e Espanha.',
                 },
                 education: {
                     formacion: 'Formação',
@@ -247,12 +251,14 @@ i18next.init({
                 experience: {
                     experiencia: 'Experience',
                     programador_web: 'Web Developer',
-                    donweb_fechas: 'March 2017 – Today',
+                    donweb_fechas: 'March 2017 – June 2019',
                     donweb_texto: 'In Donweb, I work on the project responsible for processing payments, creating and activating accounts and services for clients, reporting and internal system. The main projects I participated in were the creation of a new payment page in which I developed the backend to receive payments with credit card, Stripe, PayPal, Visa Peru and WebPay Chile. I also participated in the support for Let\'s Encrypt SSL certificates in the hosting accounts and a WhoIs server in NodeJS.',
                     iga_texto: 'In IGA, I participated in a web project in LAMP environment with CodeIgniter Framework, in addition, I did a lot of projects using the Google Analytics, Facebook, EnvialoSimple and Moodle APIs, controlled the development flow of IGA applications and supported remote work teams',
                     doctum_texto: 'Flux Softwares offers services to the same college where I studied. In Flux I worked on several systems with LAMP environment and Zend Framework 2, I developed some multiplatform applications with PhoneGap. I also worked on the development and integration of an academic content management system in WordPress.',
                     iga_fechas: 'July 2016 – March 2017',
                     doctum_fechas: 'May 2013 – May 2016',
+                    avature_fechas: 'June 2019 – Today',
+                    avature_texto: 'In Avature, I work as a fullstack developer in the Fields team. We use PHP, SQL database y Javascript. We use agile methodologies daily and your team are distributed in Argentina and Spain.',
                 },
                 education: {
                     formacion: 'Education',
@@ -279,11 +285,7 @@ i18next.init({
         }
     }
 }, function(err, t) {
-// for options see
-    // https://github.com/i18next/jquery-i18next#initialize-the-plugin
     jqueryI18next.init(i18next, $);
-    // start localizing, details:
-    // https://github.com/i18next/jquery-i18next#usage-of-selector-function
     $('body').localize();
     recalcularFechas();
 });
