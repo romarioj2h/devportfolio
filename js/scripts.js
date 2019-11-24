@@ -85,7 +85,7 @@ function googleAnalyticsEvent(categoria, evento) {
 
         // Add icons to each block
         $this.find('.vtimeline-point').each(function() {
-            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>');
+            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-map-marker-alt"></i></div>');
         });
 
         recalcularFechas();
