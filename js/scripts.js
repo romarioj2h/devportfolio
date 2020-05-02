@@ -164,7 +164,8 @@ i18next.init({
                     sistema_ventas: 'Sistema de Ventas',
                     texto_sistema_ventas: 'Sistema de Ventas hecho para cliente de Rosario a medida con manejo de clientes, estoque, ventas y generación de reportes.',
                     texto_hilosh: 'Una aplicación creada con el equipo HilOsH en el NASA Space Apps de 2017, es una aplicación para prognostico de inundaciones con alertas por email. La aplicación fue desarrollada con Laravel, API Dark Sky y base de datos MySQL.',
-                    texto_o_que_vc_prefere: 'Una aplicación para Android que alcanzó 150.000 descargas! Una aplicación desarrollada con PhoneGap, ademas todo el contenido era gestionado através de un servidor PHP con MySQL.'
+                    texto_o_que_vc_prefere: 'Una aplicación para Android que alcanzó 150.000 descargas! Una aplicación desarrollada con PhoneGap, ademas todo el contenido era gestionado através de un servidor PHP con MySQL.',
+                    view_more_projects: "Ver mas projectos"
                 },
                 skills: {
                     competencias: 'Competencias',
@@ -217,7 +218,8 @@ i18next.init({
                     sistema_ventas: 'Sistema de Vendas',
                     texto_sistema_ventas: 'Sistema de Vendas criado para cliente de Rosario a medida com gestão de clientes, estoque, vendas e generação de relatórios.',
                     texto_hilosh: 'Um sistema criado com a equipe HilOsH no NASA Space Apps de 2017, é um sistema para previsão de inundações com alertas por email. Desenvolvimos a aplicação usando Laravel, API de Dark Sky e banco de datos MySQL.',
-                    texto_o_que_vc_prefere: 'Um app para Android que teve mais de 150.000 downloads! A aplicação foi programada con PhoneGap, além disso todo o conteúdo era gerenciado desde um servidor PHP e MySQL.'
+                    texto_o_que_vc_prefere: 'Um app para Android que teve mais de 150.000 downloads! A aplicação foi programada con PhoneGap, além disso todo o conteúdo era gerenciado desde um servidor PHP e MySQL.',
+                    view_more_projects: "Ver mais projetos"
                 },
                 skills: {
                     competencias: 'Conhecimentos',
@@ -270,7 +272,8 @@ i18next.init({
                     sistema_ventas: 'Sales System',
                     texto_sistema_ventas: 'Sales System created for Rosario customer, with customer management, inventory, sales and reporting.',
                     texto_hilosh: 'A system created with the HilOsH team in NASA Space Apps of 2017, is a flood forecasting system with email alerts. We developed the application using Laravel, Dark Sky API and MySQL database.',
-                    texto_o_que_vc_prefere: 'An Android app that had over 150,000 downloads! The application was programmed with PhoneGap, in addition all the content was managed from a PHP and MySQL server.'
+                    texto_o_que_vc_prefere: 'An Android app that had over 150,000 downloads! The application was programmed with PhoneGap, in addition all the content was managed from a PHP and MySQL server.',
+                    view_more_projects: "View more projects"
                 },
                 skills: {
                     competencias: 'Skills',
