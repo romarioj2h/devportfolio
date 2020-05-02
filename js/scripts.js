@@ -140,7 +140,7 @@ i18next.init({
                 },
                 about: {
                     sobre_mi: 'Sobre mí',
-                    sobre_mi_texto: 'Con 5 años de experiencia en empresas de Argentina y Brasil, he trabajado empresas de distintos sectores y con varias tecnologías, las cuales tengo gran experiencia con PHP, MySQL, JavaScript, jQuery, Frameworks MVC(Laravel, Zend Framework, CodeIgniter), Bootstrap, integración de sistemas de pago(PayPal, Stripe), integración de sistemas Moodle y WordPress. Me encanta lo que hago y lo que todavía puedo hacer!'
+                    sobre_mi_texto: 'Con 7 años de experiencia en empresas de Argentina y Brasil, he trabajado empresas de distintos sectores y con varias tecnologías, las cuales tengo gran experiencia con PHP, MySQL, JavaScript, jQuery, Frameworks MVC(Laravel, Zend Framework, CodeIgniter), Bootstrap, integración de sistemas de pago(PayPal, Stripe), integración de sistemas Moodle y WordPress. Me encanta lo que hago y lo que todavía puedo hacer!'
                 },
                 experience: {
                     experiencia: 'Experiencia',
@@ -193,7 +193,7 @@ i18next.init({
                 },
                 about: {
                     sobre_mi: 'Sobre mim',
-                    sobre_mi_texto: 'Com 5 anos de experiência em empresas da Argentina e Brasil, trabalhei em empresas de deferentes áreas e com várias tecnologias, das quais tenho grande experiência com PHP, MySQL, JavaScript, jQuery, Frameworks MVC(Laravel, Zend Framework, CodeIgniter), Bootstrap, integração de sistemas de pagamento online(PayPal, Stripe), integração de sistema Moodle e Wordpress. Amo o que faço e o que ainda posso fazer!'
+                    sobre_mi_texto: 'Com 7 anos de experiência em empresas da Argentina e Brasil, trabalhei em empresas de deferentes áreas e com várias tecnologias, das quais tenho grande experiência com PHP, MySQL, JavaScript, jQuery, Frameworks MVC(Laravel, Zend Framework, CodeIgniter), Bootstrap, integração de sistemas de pagamento online(PayPal, Stripe), integração de sistema Moodle e Wordpress. Amo o que faço e o que ainda posso fazer!'
                 },
                 experience: {
                     experiencia: 'Experiência',
@@ -246,7 +246,7 @@ i18next.init({
                 },
                 about: {
                     sobre_mi: 'About',
-                    sobre_mi_texto: 'I have 5 years of experience in companies in Argentina and Brazil, I have worked in companies of different fields and with several technologies, in which I have a lot of experience with PHP, MySQL, JavaScript, jQuery, MVC Frameworks (Laravel, Zend Framework, CodeIgniter), Bootstrap, integration of online payment systems (PayPal, Stripe), integration of Moodle and Wordpress systems. I love what I do and what I can still do!'
+                    sobre_mi_texto: 'I have 7 years of experience in companies in Argentina and Brazil, I have worked in companies of different fields and with several technologies, in which I have a lot of experience with PHP, MySQL, JavaScript, jQuery, MVC Frameworks (Laravel, Zend Framework, CodeIgniter), Bootstrap, integration of online payment systems (PayPal, Stripe), integration of Moodle and Wordpress systems. I love what I do and what I can still do!'
                 },
                 experience: {
                     experiencia: 'Experience',
